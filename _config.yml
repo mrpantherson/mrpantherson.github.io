@@ -3,13 +3,14 @@ logo: "/images/IMG_20200330_154124_616.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   19 year experience as a software engineer in game development, simulation, and education. I have a master's degree in Mobile Software Engineering and have published papers in the field of machine intelligence.
   <br><br>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 
-  <br><br>
-  <a href="https://www.kaggle.com/mrpantherson/">Kaggle</a> 
+  <a href="https://www.kaggle.com/mrpantherson/">Kaggle</a>
+  <br>
   <a href="https://scholar.google.com/citations?user=zMLTYGAAAAAJ/">Google Scholar</a> 
+  <br>
   <a href="https://play.google.com/store/apps/developer?id=Handsome/">Android Play</a> 
-  <a href="https://public.tableau.com/profile/brandon2995/">Tableau</a> 
+  <br>
+  <a href="https://public.tableau.com/profile/brandon2995/">Tableau</a>
+  <br>
   <a href="http://oldmanpatterson.googlepages.com/">Old Portfolio</a> 
   
 theme: jekyll-theme-minimal
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
