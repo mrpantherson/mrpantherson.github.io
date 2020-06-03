@@ -1,11 +1,15 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Brandon Patterson # your name (or website title) here
+logo: "/images/IMG_20200330_154124_616.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  19 year experience as a software engineer in game development, simulation, and education. I have a master's degree in Mobile Software Engineering and have published papers in the field of machine intelligence.
   <br><br>
-  Second description 
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.kaggle.com/mrpantherson/">Kaggle</a> 
+  <a href="https://scholar.google.com/citations?user=zMLTYGAAAAAJ/">Google Scholar</a> 
+  <a href="https://play.google.com/store/apps/developer?id=Handsome/">Android Play</a> 
+  <a href="https://public.tableau.com/profile/brandon2995/">Tableau</a> 
+  <a href="http://oldmanpatterson.googlepages.com/">Old Portfolio</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
