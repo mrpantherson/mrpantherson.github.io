@@ -1,7 +1,9 @@
-title: Brandon Patterson # your name (or website title) here
-logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
+title: Brandon Patterson
+logo: "/images/logo.jpg?raw=true"
+description: > 
   19 year experience as a software engineer in game development, simulation, and education. I have a master's degree in Mobile Software Engineering and have published papers in the field of machine intelligence.
+  <br><br>
+  I am currently fascinated with data science. I enjoy taking a data set and exploring what is there, typically in a Kaggle or Tableau.
   <br><br>
   <a href="https://www.kaggle.com/mrpantherson/">Kaggle</a>
   <br>
