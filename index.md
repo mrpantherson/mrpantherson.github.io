@@ -2,17 +2,19 @@
 
 ---
 
-### Game Boy Advance Development 
+### Simulation
+
+I worked on several different AV-8B trainers.
+
+<img src="images/sim_work.png?raw=true"/>
+
+---
+
+### Game Boy Advance
+
+I started my career working on Game Boy Advance.
 
 <img src="images/gba_dev.png?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
@@ -26,9 +28,5 @@
 
 ---
 
-
-
-
----
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
