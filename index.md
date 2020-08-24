@@ -10,6 +10,12 @@ Currently teaching Python, data science, and machine learning. One of the most e
 
 ---
 
+### Altair Graphs
+
+ [Graph Test](test.html)
+
+---
+
 ### Simulation
 
 I worked in military simulation for a while, most of my work was done on AV-8B trainers. As these were done in classified environments I don't have any pictures of the work, however I found these from an official press release after we had delivered this particular trainer. It was before my time, but these same trainers were used by Arnold Schwarzenegger when preparing for the movie True Lies.
