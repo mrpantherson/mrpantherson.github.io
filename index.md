@@ -10,9 +10,11 @@ Currently teaching Python, data science, and machine learning. One of the most e
 
 ---
 
-### Altair Graphs
+#### Altair
 
- [Graph Test](test.html)
+I've reacently come across the Altair API, among other things it allows us to easily generate HTML graphs.
+
+ [DnD Monsters](graphs/graph1.html)
 
 ---
 
