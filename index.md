@@ -12,7 +12,7 @@ Currently teaching Python, data science, and machine learning. One of the most e
 
 #### Altair
 
-I've reacently come across the Altair API, among other things it allows us to easily generate HTML graphs.
+I've reacently come across the Altair API, one of its best features is its ability to easily generate HTML graphs. This is the first grammar of graphics API that i've used that I really enjoyed using so I thought I would put a few graphs up here to play with the HTML exporting.
 
  [DnD Monsters](graphs/graph1.html)
 
@@ -43,7 +43,3 @@ I've enjoyed programming for a long time so I always find myself working on some
 ---
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-
-<!--
-- [Project 1 Title](http://example.com/)
--->
