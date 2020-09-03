@@ -13,6 +13,9 @@ description: >
   <br>
   <a href="https://public.tableau.com/profile/brandon2995/">Tableau</a>
   <br>
-  <a href="https://www.linkedin.com/in/brandon-patterson-7038813/">LinkedIn</a>
-  
+  <a href="https://www.linkedin.com/in/brandon-patterson-7038813/">LinkedIn</a> 
 theme: jekyll-theme-minimal
+show_downloads: true
+github:
+  is_project_page: true
+  repository_url: "https://github.com/mrpantherson/portfolio"
