@@ -1,6 +1,10 @@
 import altair as alt
 import pandas as pd
 import panel as pn
+import param
+import matplotlib.pyplot as plt
+import seaborn as sns
+from bokeh.resources import INLINE
 
 
 # dnd scatter
@@ -35,47 +39,46 @@ chart = chart.properties(title='DnD Monsters 5e - Count of Alignment Per Challen
 
 chart.save('./graphs/graph2.html')
 
-
 # panel dashboard
-
-import param
-import pandas as pd 
-import matplotlib.pyplot as plt
-import seaborn as sns
-import panel as pn
-from bokeh.resources import INLINE
-
 pn.extension()
-
 df = pd.read_csv('./data/dnd_monsters.csv')
 
-class TestDashboard(param.Parameterized):
+class DnDashboard(param.Parameterized):
     
-    types = param.ObjectSelector(default='humanoid', objects=list(df.type.unique()))
+    sizes = param.ObjectSelector(default='Medium', objects=list(df.loc[:, 'size'].unique()))
     
     def get_data(self):
-        class_df = df[(df.type==self.types)].copy()
+        class_df = df[(df.loc[:, 'size']==self.sizes)].copy()
         return class_df
     
-    def box_view(self):
+    def hp_hist(self):
         data = self.get_data() 
-        ax = sns.boxplot(data['hp'])
-        plt.close()
-        return ax.figure
+        chart = alt.Chart(data).mark_rect().encode(
+            x=alt.X('hp', title='', bin=True),
+            y='count(hp)',
+            )
+        return chart
+
+    def ac_hist(self):
+        data = self.get_data() 
+        chart = alt.Chart(data).mark_rect().encode(
+            x=alt.X('ac', title='', bin=True),
+            y='count(ac)',
+            )
+        return chart
     
     def table_view(self):
         data = self.get_data()
         return data.loc[:, ['name', 'align', 'size', 'cr']].sample(n=10)
 
-
-rd = TestDashboard(name='')
-dashboard_title = '# Test Dashboard'
-dashboard_desc = 'Here I go again on my own'
+db_panel = DnDashboard()
+dashboard_title = '# DnD 5e Monster'
+dashboard_desc = 'Simple interactive dashboard that lets you pick a monster size and see how the distribution of health and ac changes.'
 
 dashboard = pn.Column(dashboard_title, 
-                      dashboard_desc,   
-                      rd.param,
-                      pn.Row(rd.box_view, rd.table_view),
+                      dashboard_desc,
+                      db_panel.param,
+                      pn.Row(db_panel.hp_hist, db_panel.ac_hist),
                      )
 
 dashboard.save('./graphs/graph3.html', embed=True, resources=INLINE)

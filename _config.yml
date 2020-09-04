@@ -15,7 +15,10 @@ description: >
   <br>
   <a href="https://www.linkedin.com/in/brandon-patterson-7038813/">LinkedIn</a> 
 theme: jekyll-theme-minimal
-show_downloads: true
+show_downloads: false
 github:
+  owner_name: "Brandon"
   is_project_page: true
+  is_user_page: true
   repository_url: "https://github.com/mrpantherson/portfolio"
+  owner_url: "https://github.com/mrpantherson/"
