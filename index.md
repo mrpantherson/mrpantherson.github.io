@@ -10,15 +10,15 @@ Currently teaching Python, data science, and machine learning. One of the most e
 
 ---
 
-#### Altair / Panel
+#### Altair / Panel / Seaborn
 
-I've reacently come across the Altair API, one of its best features is its ability to easily generate HTML graphs. This is the first grammar of graphics API that i've used that I really enjoyed using so I thought I would put a few graphs up here to play with the HTML exporting. I've found that this works well with the Panel API, which allows us to create dashboards that can be exported to HTML as well.
+I've reacently come across the Altair API, one of its best features is its ability to easily generate HTML graphs. This is the first grammar of graphics API that i've used that I really enjoyed using so I thought I would put a few graphs up here to play with the HTML exporting. I've also been experimenting with Panel, this is an API that lets you create dashboards with any graphing API.
 
 [DnD Monsters - Relationship of HP/AC](graphs/graph1.html)
  
 [DnD Monsters - Challenge Rating of Alignments](graphs/graph2.html)
 
-[DnD Monsters - Test Dashboard](graphs/graph3.html)
+[DnD Monsters - Attribute Distribution per Size](graphs/graph3.html)
 
 ---
 

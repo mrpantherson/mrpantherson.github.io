@@ -53,19 +53,21 @@ class DnDashboard(param.Parameterized):
     
     def hp_hist(self):
         data = self.get_data() 
-        chart = alt.Chart(data).mark_rect().encode(
-            x=alt.X('hp', title='', bin=True),
-            y='count(hp)',
-            )
-        return chart
+
+        fig = plt.Figure(figsize=(6, 6))
+        ax = fig.add_subplot(111)
+        sns.distplot(data.loc[:, 'hp'], ax=ax, kde=False)
+        sns.distplot(df.loc[:, 'hp'], ax=ax, kde=False)
+        return fig
 
     def ac_hist(self):
         data = self.get_data() 
-        chart = alt.Chart(data).mark_rect().encode(
-            x=alt.X('ac', title='', bin=True),
-            y='count(ac)',
-            )
-        return chart
+
+        fig = plt.Figure(figsize=(6, 6))
+        ax = fig.add_subplot(111)
+        sns.distplot(data.loc[:, 'ac'], ax=ax, kde=False)
+        sns.distplot(df.loc[:, 'ac'], ax=ax, kde=False)
+        return fig
     
     def table_view(self):
         data = self.get_data()
@@ -78,7 +80,7 @@ dashboard_desc = 'Simple interactive dashboard that lets you pick a monster size
 dashboard = pn.Column(dashboard_title, 
                       dashboard_desc,
                       db_panel.param,
-                      pn.Row(db_panel.hp_hist, db_panel.ac_hist),
+                      pn.Row(db_panel.hp_hist, db_panel.ac_hist, db_panel.table_view),
                      )
 
 dashboard.save('./graphs/graph3.html', embed=True, resources=INLINE)
