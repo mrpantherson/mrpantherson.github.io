@@ -41,6 +41,7 @@ chart.save('./graphs/graph2.html')
 
 # panel dashboard
 pn.extension()
+sns.set_style('darkgrid')
 df = pd.read_csv('./data/dnd_monsters.csv')
 
 class DnDashboard(param.Parameterized):
@@ -50,23 +51,15 @@ class DnDashboard(param.Parameterized):
     def get_data(self):
         class_df = df[(df.loc[:, 'size']==self.sizes)].copy()
         return class_df
-    
-    def hp_hist(self):
-        data = self.get_data() 
-
-        fig = plt.Figure(figsize=(6, 6))
-        ax = fig.add_subplot(111)
-        sns.distplot(data.loc[:, 'hp'], ax=ax, kde=False)
-        sns.distplot(df.loc[:, 'hp'], ax=ax, kde=False)
-        return fig
 
     def ac_hist(self):
         data = self.get_data() 
 
-        fig = plt.Figure(figsize=(6, 6))
+        fig = plt.Figure(figsize=(14, 6))
         ax = fig.add_subplot(111)
-        sns.distplot(data.loc[:, 'ac'], ax=ax, kde=False)
-        sns.distplot(df.loc[:, 'ac'], ax=ax, kde=False)
+
+        sns.boxplot(x='size', y='ac', data=df, ax=ax)
+        sns.swarmplot(x='size', y='ac', data=df, ax=ax, color='black')
         return fig
     
     def table_view(self):
@@ -75,12 +68,12 @@ class DnDashboard(param.Parameterized):
 
 db_panel = DnDashboard()
 dashboard_title = '# DnD 5e Monster'
-dashboard_desc = 'Simple interactive dashboard that lets you pick a monster size and see how the distribution of health and ac changes.'
+dashboard_desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+kpi = pn.Column('# 762 Creatures', '# Medium Size', '# Humanoid', '# Chaotic Evil Alignment')
 
 dashboard = pn.Column(dashboard_title, 
                       dashboard_desc,
-                      db_panel.param,
-                      pn.Row(db_panel.hp_hist, db_panel.ac_hist, db_panel.table_view),
+                      pn.Row(db_panel.ac_hist, kpi),
                      )
 
 dashboard.save('./graphs/graph3.html', embed=True, resources=INLINE)
