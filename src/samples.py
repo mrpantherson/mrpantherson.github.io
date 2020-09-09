@@ -53,27 +53,32 @@ class DnDashboard(param.Parameterized):
         return class_df
 
     def ac_hist(self):
-        data = self.get_data() 
+        # data = self.get_data() interactivity removed for now
+        chart = alt.Chart(df).mark_boxplot().encode(
+            y=alt.Y('size:O', title="size"),
+            x=alt.X('ac:Q', title='armor class'),
+            color=alt.Color('size:O', scale=alt.Scale(scheme='tableau10'), legend=None),
+            )
 
-        fig = plt.Figure(figsize=(14, 6))
-        ax = fig.add_subplot(111)
-
-        sns.boxplot(x='size', y='ac', data=df, ax=ax)
-        sns.swarmplot(x='size', y='ac', data=df, ax=ax, color='black')
-        return fig
+        return chart
     
     def table_view(self):
-        data = self.get_data()
-        return data.loc[:, ['name', 'align', 'size', 'cr']].sample(n=10)
+        data = df.loc[df.loc[:, 'size']=='Tiny', :]
+        data = data.sort_values(by='ac', ascending=False)
+        return data.loc[:, ['name', 'ac', 'type', 'size']].head(n=10)
 
 db_panel = DnDashboard()
 dashboard_title = '# DnD 5e Monster'
-dashboard_desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
-kpi = pn.Column('# 762 Creatures', '# Medium Size', '# Humanoid', '# Chaotic Evil Alignment')
+dashboard_desc = "I didn't start playing role playing games until D&D 5E came out, but I have been hooked on RPGs ever since. I thought it would be interesting to examine\
+     the composition of creatures and see what commonalities there might be with respect to size and armor class. The box plot clearly shows the median growing with the\
+     size of the monster, however there seems to be some interesting 'tiny' creatures with very large ac, the table view lists these creatures. Also below are some interesting\
+     KPI for the creature attribute modes."
+kpi = pn.Row('# 762 Creatures - ', '# Medium Size - ', '# Humanoid - ', '# Chaotic Evil Alignment')
 
 dashboard = pn.Column(dashboard_title, 
                       dashboard_desc,
-                      pn.Row(db_panel.ac_hist, kpi),
+                      kpi,
+                      pn.Row(db_panel.ac_hist, pn.Spacer(width=125), db_panel.table_view),
                      )
 
 dashboard.save('./graphs/graph3.html', embed=True, resources=INLINE)

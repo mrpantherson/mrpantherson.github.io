@@ -8,6 +8,16 @@ Currently teaching Python, data science, and machine learning. One of the most e
 
 <img src="images/spectral.png?raw=true"/>
 
+#### Altair / Panel
+
+I really enjoy playing with data and discovering new ways to visualize it, I've reacently come across the Altair and Panel APIs. Altair is a *graphics of grammar* API that lets us easily export graphs to HTML, this is the first declarative API that i've enjoyed using so I thought I would highlight a few graphs here. The Panel API lets us create interactive dashboards and also export them to HTML as well. When I need to make a dashboard I will typically go over to Tableau, but I like having a code based solution as well.
+
+[DnD Monsters - Dashboard of Attribute Distribution per Size](graphs/graph3.html)
+
+[DnD Monsters - Relationship of HP/AC](graphs/graph1.html)
+ 
+[DnD Monsters - Challenge Rating of Alignments](graphs/graph2.html)
+
 ---
 
 ### Simulation
@@ -28,15 +38,7 @@ I started my career working on Game Boy Advance, I had never worked on embedded 
 
 ### Other Projects
 
-I've reacently come across the Altair API, one of its best features is its ability to easily generate HTML graphs. This is the first grammar of graphics API that i've used that I really enjoyed using so I thought I would put a few graphs up here to play with the HTML exporting.
-
-[DnD Monsters - Relationship of HP/AC](graphs/graph1.html)
- 
-[DnD Monsters - Challenge Rating of Alignments](graphs/graph2.html)
-
-[DnD Monsters - Attribute Distribution per Size](graphs/graph3.html)
-
-I've enjoyed programming for a long time so I always find myself working on something: games, fractal generators, Boggle solvers, etc...
+I've enjoyed programming for a long time so I always find myself working on something: games, fractal generators, Boggle solvers, and recently data science projects.
 
 <img src="images/fun_stuff.png?raw=true"/>
 
