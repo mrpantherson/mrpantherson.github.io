@@ -4,7 +4,7 @@
 
 ### Data Science
 
-Currently teaching Python, data science, and machine learning. One of the most exciting things I've done recently is cont on a team to publish work in the area of machine learning. We were able to use ML to take readily available data and calculate the energy from the sun, something that typically takes very expensive sensors to accomplish.
+Currently teaching Python, data science, and machine learning. One of the most exciting things I've done recently is contribute on a team to publish work in the area of machine learning. We were able to use ML to take readily available data and calculate the energy from the sun, something that typically takes very expensive sensors to accomplish.
 
 <img src="images/spectral.png?raw=true"/>
 
