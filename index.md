@@ -4,13 +4,13 @@
 
 ### Data Science
 
-Currently teaching Python, data science, and machine learning. One of the most exciting things i've done recently is working on a team to publish work in the area of machine learning. We were able to use ML to take readily available data and calculate the energy from the sun, something that typically takes very expensive sensors to accomplish.
+Currently teaching Python, data science, and machine learning. One of the most exciting things I've done recently is cont on a team to publish work in the area of machine learning. We were able to use ML to take readily available data and calculate the energy from the sun, something that typically takes very expensive sensors to accomplish.
 
 <img src="images/spectral.png?raw=true"/>
 
 #### Altair / Panel
 
-I really enjoy playing with data and discovering new ways to visualize it, I've reacently come across the Altair and Panel APIs. Altair is a *graphics of grammar* API that lets us easily export graphs to HTML, this is the first declarative API that i've enjoyed using so I thought I would highlight a few graphs here. The Panel API lets us create interactive dashboards and also export them to HTML as well. When I need to make a dashboard I will typically go over to Tableau, but I like having a code based solution as well.
+I really enjoy playing with data and discovering new ways to visualize it, I've reacently come across the Altair and Panel APIs. Altair is a *graphics of grammar* API that lets us easily export graphs to HTML, this is the first declarative API that I've enjoyed using so I thought I would highlight a few graphs here. The Panel API lets us create interactive dashboards and also export them to HTML as well. When I need to make a dashboard I will typically go over to Tableau, but I like having a code based solution as well.
 
 [DnD Monsters - Dashboard of Attribute Distribution per Size](graphs/graph3.html)
 
