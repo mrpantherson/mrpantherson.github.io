@@ -6,7 +6,7 @@ Lately I’ve worked on advanced machine learning and NLP applications, includin
 
 <img src="images/spectral.png?raw=true" alt="Spectral Analysis Graph"/>
 
-Another fun project, I built a complete full stack testing environment combining a responsive front end with a secure Flask backend, a scalable SQL database, and integrated user authentication. The system supports dynamic, real time graphs generated from live database queries, making it easy to visualize trends and monitor activity. Strong database integrity is maintained through robust validation and transactional safeguards, ensuring reliable data handling. This environment serves as a versatile sandbox for developing, testing, and refining features while maintaining production level security and performance.
+Another fun project, I built a testing setup with a front end connected to a Flask backend, backed by a SQL database with user login and role based access. It generates real time graphs from live queries and keeps data consistent through constraints and validation. The environment supports rapid feature prototyping, API testing, and database performance checks, all in a single integrated setup.
 
 <img src="images/gridworld.png?raw=true" alt="Gridworld Example"/>
 
