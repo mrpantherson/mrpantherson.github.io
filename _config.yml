@@ -1,19 +1,19 @@
 title: Brandon Patterson
 logo: "/images/logo.jpg?raw=true"
 description: > 
-  Experience as a software engineer in game development, simulation, education, and AI research. I have an M.S. in Computer Science and have published papers in the field of machine learning.
+   Software Engineer with extensive experience in AI research, simulation, and higher education. M.S. in Computer Science with published machine learning research, blending academic innovation with real world applications.
   <br><br>
-  Currently having fun with data science and AI, see more stuff I've done here.
+  Currently exploring data science, Deep Learning, NLP, and AI-driven solutions. Check out my work here."
   <br><br>
-  <a href="https://www.kaggle.com/mrpantherson/">Kaggle</a>
+  <a href="https://www.linkedin.com/in/brandon-patterson-7038813/">LinkedIn</a> 
   <br>
   <a href="https://orcid.org/0000-0003-2566-6506">ORC ID</a> 
   <br>
-  <a href="https://mrpantherson.pythonanywhere.com/">Flask Anywhere</a>
-  <br>
   <a href="https://public.tableau.com/profile/brandon2995/">Tableau</a>
   <br>
-  <a href="https://www.linkedin.com/in/brandon-patterson-7038813/">LinkedIn</a> 
+  <a href="https://www.kaggle.com/mrpantherson/">Kaggle</a>
+  <br>
+  <a href="https://mrpantherson.pythonanywhere.com/">Flask Playground</a>
   <br>
 theme: jekyll-theme-minimal
 show_downloads: false
