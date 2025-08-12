@@ -1,46 +1,38 @@
 ## Portfolio
 
+### Data Science and Machine Learning
+
+Lately I’ve worked on advanced machine learning and NLP applications, including DARPA funded projects focused on detecting toxic behavior in online communities and optimizing LLM performance under constrained environments. One of the most exciting recent efforts was collaborating on a published research project where we used machine learning to estimate solar energy output from readily available data, a process traditionally requiring expensive physical sensors.
+
+<img src="images/spectral.png?raw=true" alt="Spectral Analysis Graph"/>
+
+Another fun project, I built a complete full stack testing environment combining a responsive front end with a secure Flask backend, a scalable SQL database, and integrated user authentication. The system supports dynamic, real time graphs generated from live database queries, making it easy to visualize trends and monitor activity. Strong database integrity is maintained through robust validation and transactional safeguards, ensuring reliable data handling. This environment serves as a versatile sandbox for developing, testing, and refining features while maintaining production level security and performance.
+
+<img src="images/gridworld.png?raw=true" alt="Gridworld Example"/>
+
 ---
 
-### Data Science
+### Simulation
 
-Currently teaching Python, data science, and machine learning. One of the most exciting things I've done recently is contribute on a team to publish work in the area of machine learning. We were able to use ML to take readily available data and calculate the energy from the sun, something that typically takes very expensive sensors to accomplish.
+I spent several years working in military simulation, focusing on AV-8B Harrier training systems. Most of my work was in classified environments, but these images from an official press release show the type of trainers I worked on. The same systems were famously used by Arnold Schwarzenegger while preparing for True Lies.
 
-<img src="images/spectral.png?raw=true"/>
+<img src="images/sim_work.png?raw=true"/>
 
-#### Altair / Panel
+---
 
-I really enjoy playing with data and discovering new ways to visualize it, I've reacently come across the Altair and Panel APIs. Altair is a *graphics of grammar* API that lets us easily export graphs to HTML, this is the first declarative API that I've enjoyed using so I thought I would highlight a few graphs here. The Panel API lets us create interactive dashboards and also export them to HTML as well. When I need to make a dashboard I will typically go over to Tableau, but I like having a code based solution as well.
+### Other Projects
+
+Over the years, I’ve explored a wide range of personal projects, everything from games and fractal generators to Boggle solvers and experimental data science tools.
+
+<img src="images/fun_stuff.png?raw=true"/>
+
+I also experiment with data visualization tools like Altair and Panel to rapidly prototype interactive dashboards and visual analytics.
 
 [DnD Monsters - Dashboard of Attribute Distribution per Size](graphs/graph3.html)
 
 [DnD Monsters - Relationship of HP/AC](graphs/graph1.html)
  
 [DnD Monsters - Challenge Rating of Alignments](graphs/graph2.html)
-
----
-
-### Simulation
-
-I worked in military simulation for a while, most of my work was done on AV-8B trainers. As these were done in classified environments I don't have any pictures of the work, however I found these from an official press release after we had delivered this particular trainer. It was before my time, but these same trainers were used by Arnold Schwarzenegger when preparing for the movie True Lies.
-
-<img src="images/sim_work.png?raw=true"/>
-
----
-
-### Game Boy Advance
-
-I started my career working on Game Boy Advance, I had never worked on embedded systems before but quickly fell in love with how the system worked. Growing up in the NES/SNES era gave me an appreciation for 2D games so I am happy to have worked on one of the last systems dedicated to this type of gaming.
-
-<img src="images/gba_dev.png?raw=true"/>
-
----
-
-### Other Projects
-
-I've enjoyed programming for a long time so I always find myself working on something: games, fractal generators, Boggle solvers, and recently data science projects.
-
-<img src="images/fun_stuff.png?raw=true"/>
 
 ---
 
