@@ -2,9 +2,9 @@
 
 ### Data Science and Machine Learning
 
-Lately I’ve worked on advanced machine learning and NLP applications through DARPA and ARL funded projects. Much of this work involves sensitive information that I cannot publicly share. I built **ComStar Archives** as a way to demonstrate some of the AI engineering techniques and capabilities I've developed through that work in a publicly accessible project.
+Lately I’ve worked on advanced machine learning and NLP applications through DARPA and ARL funded projects. Much of this work involves sensitive information that I cannot publicly share. I built ComStar Archives as a way to demonstrate some of the AI engineering techniques and capabilities I've developed through that work in a publicly accessible project.
 
-**ComStar Archives** is a full stack BattleTech research assistant combining structured database queries, semantic search, RAG, and LLM tool orchestration to produce evidence grounded answers from a curated knowledge base.
+ComStar Archives is a full stack BattleTech research assistant combining structured database queries, semantic search, RAG, and LLM tool orchestration to produce evidence grounded answers from a curated knowledge base.
 
 [Live Demo](https://battletech-ai.onrender.com/)
 
