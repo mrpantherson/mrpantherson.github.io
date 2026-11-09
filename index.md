@@ -2,19 +2,27 @@
 
 ### Data Science and Machine Learning
 
-Lately I’ve worked on advanced machine learning and NLP applications, including DARPA funded projects focused on detecting toxic behavior in online communities and optimizing LLM performance under constrained environments. One of the most exciting recent efforts was collaborating on a published research project where we used machine learning to estimate solar energy output from readily available data, a process traditionally requiring expensive physical sensors.
+Lately I’ve worked on advanced machine learning and NLP applications through DARPA and ARL funded projects. Much of this work involves sensitive information that I cannot publicly share. I built **ComStar Archives** as a way to demonstrate some of the AI engineering techniques and capabilities I've developed through that work in a publicly accessible project.
 
-<img src="images/spectral.png?raw=true" alt="Spectral Analysis Graph"/>
+**ComStar Archives** is a full stack BattleTech research assistant combining structured database queries, semantic search, RAG, and LLM tool orchestration to produce evidence grounded answers from a curated knowledge base.
 
-Another fun project, I built a testing setup with a front end connected to a Flask backend, backed by a SQL database with user login and role based access. It generates real time graphs from live queries and keeps data consistent through constraints and validation. The environment supports rapid feature prototyping, API testing, and database performance checks, all in a single integrated setup.
+[Live Demo](https://battletech-ai.onrender.com/)
+
+<img src="images/comstar.png" alt="ComStar Archives application"/>
+
+I also built a testing and development environment with a Flask backend and SQL database, featuring user authentication and role based access. It supports real time data visualization, live database queries, and data validation, providing an integrated platform for rapid prototyping, API testing, and database performance evaluation.
 
 <img src="images/gridworld.png?raw=true" alt="Gridworld Example"/>
+
+I also collaborated on a published research project that used machine learning to estimate solar energy output from readily available data, offering an alternative to methods that rely on expensive physical sensors.
+
+<img src="images/spectral.png?raw=true" alt="Spectral Analysis Graph"/>
 
 ---
 
 ### Simulation
 
-I spent several years working in military simulation, focusing on AV-8B Harrier training systems. Most of my work was in classified environments, but these images from an official press release show the type of trainers I worked on. The same systems were famously used by Arnold Schwarzenegger while preparing for True Lies.
+I spent several years working in military simulation, developing and supporting AV-8B Harrier training systems. Much of this work took place in classified environments, but these images from an official press release show the types of trainers I worked on. The systems also gained some public attention when Arnold Schwarzenegger famously used them.
 
 <img src="images/sim_work.png?raw=true"/>
 
@@ -25,14 +33,6 @@ I spent several years working in military simulation, focusing on AV-8B Harrier 
 Over the years, I’ve explored a wide range of personal projects, everything from games and fractal generators to Boggle solvers and experimental data science tools.
 
 <img src="images/fun_stuff.png?raw=true"/>
-
-I also experiment with data visualization tools like Altair and Panel to rapidly prototype interactive dashboards and visual analytics.
-
-[DnD Monsters - Dashboard of Attribute Distribution per Size](graphs/graph3.html)
-
-[DnD Monsters - Relationship of HP/AC](graphs/graph1.html)
- 
-[DnD Monsters - Challenge Rating of Alignments](graphs/graph2.html)
 
 ---
 
