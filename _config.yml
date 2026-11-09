@@ -1,20 +1,21 @@
 title: Brandon Patterson
 logo: "/images/logo.jpg?raw=true"
-description: > 
-  Software Engineer with extensive experience in AI research, simulation, and higher education. M.S. in Computer Science with published machine learning research, blending academic innovation with real world applications.
+description: >
+  Machine Learning Consultant with experience in AI research, natural language processing, and military simulation. M.S. in Computer Science, with published machine learning research and experience developing applied AI systems.
+
   <br><br>
-  Currently exploring data science, deep learning, NLP, and AI driven solutions. Check out my work here.
+  My work spans machine learning, deep learning, NLP, and LLM-based applications, with a focus on turning research into practical systems.
+
   <br><br>
-  <a href="https://www.linkedin.com/in/brandon-patterson-7038813/">LinkedIn</a> 
+  <a href="https://www.linkedin.com/in/brandon-patterson-7038813/">LinkedIn</a>
   <br>
-  <a href="https://orcid.org/0000-0003-2566-6506">ORC ID</a> 
+  <a href="https://orcid.org/0000-0003-2566-6506">ORCID</a>
   <br>
-  <a href="https://public.tableau.com/profile/brandon2995/">Tableau</a>
+  <a href="https://battletech-ai.onrender.com/">ComStar Archives</a>
   <br>
   <a href="https://www.kaggle.com/mrpantherson/">Kaggle</a>
   <br>
-  <a href="https://mrpantherson.pythonanywhere.com/">Flask Playground</a>
-  <br>
+  <a href="https://public.tableau.com/profile/brandon2995/">Tableau</a>
 theme: jekyll-theme-minimal
 show_downloads: false
 github:
